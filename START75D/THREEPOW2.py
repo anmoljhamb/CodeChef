@@ -1,4 +1,4 @@
-def ans(s: str) -> int:
+def ans(s: str) -> bool:
 
     # case 1, has exactly 3 1s in there.
     x = s.count("1")

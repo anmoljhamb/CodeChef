@@ -1,5 +1,6 @@
 def ans(n: int):
-    for i in range(n, 2*n):
+    x = 2**(n-1)
+    for i in range(x-n+1, x+1):
         temp = bin(i)[2:]
         print("0"*(n-len(temp))+temp)
 
